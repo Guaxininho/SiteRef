@@ -1,7 +1,14 @@
-// os ícones de categorias são de uma cor ex: #0F3D3E e o background deles é uma cor análoga
-// restante da paleta é #E2DCC8 (sendo esse o texto de descrição) e #F1F1F1 esse cor da categoria
 @import './variaveis';
+@import url('https://fonts.googleapis.com/css2?family=Marhey:wght@300&display=swap');
 
+
+#introducao{
+  width: 80%;
+  margin: 0 auto;
+  font-size: 3rem;
+  font-family: 'Marhey', cursive;
+  text-align: center;
+}
 .cardExp{
   position: relative;
   width: 90%;
