@@ -1,0 +1,87 @@
+// os ícones de categorias são de uma cor ex: #0F3D3E e o background deles é uma cor análoga
+// restante da paleta é #E2DCC8 (sendo esse o texto de descrição) e #F1F1F1 esse cor da categoria
+@import './variaveis';
+
+.cardExp{
+  position: relative;
+  width: 90%;
+  height: fit-content;
+  padding: 3rem;
+  background-color: $caixaGeral;
+  margin: 0 auto;
+  margin-top: 3rem;
+  border-radius: .5rem;
+  cursor: pointer;
+  .tituloExp{
+    display: flex;
+    position: absolute;
+    width: fit-content;
+    left: 1rem;
+    top: .5rem;
+    img{
+      height: 4rem;
+      margin-right: .5rem;
+    }
+    h1{
+      font-weight: 800;
+      color: $Titulo;
+      text-transform: uppercase;
+    }
+  }
+  
+  .categorias{
+    position: absolute;
+    left: 100%;
+    transform: translateX(-100%);
+    top: .5rem;
+    width: 14rem;
+    display: flex;
+    align-items: center;
+
+    .freelancerIcon{
+      width: 12.5rem;
+      padding: .2rem;
+      display: flex;
+      align-items: center;
+      // justify-content: space-evenly;
+      background-color: $freelancerIcon;
+      border-radius: .5rem;
+
+      img{
+        width: 1.5rem;
+        height: 1.5rem;
+        margin-left: .25rem;
+        margin-right: .25rem;
+      }
+      h5{
+        font-size: 1.5rem;
+        color: $Titulo;
+        text-transform: uppercase;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+      }
+    }
+    
+  }
+  .descricaoExp{
+    margin-top: 2.2rem;
+    font-size: 2rem;
+    color: $Texto;
+  }
+  .data{
+    top: .5rem;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    color: $Titulo;
+  }
+  video{
+    margin-top: 2.2rem;
+    width: 100%;
+  }
+}
+.verMais{
+  display: none;
+}
+.ver{
+  display: block;
+}

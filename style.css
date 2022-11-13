@@ -1,0 +1,101 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+body {
+  box-sizing: border-box;
+  background-color: #FFF8EA;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+.cardExp {
+  position: relative;
+  width: 90%;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  padding: 3rem;
+  background-color: #343a40;
+  margin: 0 auto;
+  margin-top: 3rem;
+  border-radius: 0.5rem;
+  cursor: pointer;
+}
+.cardExp .tituloExp {
+  display: flex;
+  position: absolute;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  left: 1rem;
+  top: 0.5rem;
+}
+.cardExp .tituloExp img {
+  height: 4rem;
+  margin-right: 0.5rem;
+}
+.cardExp .tituloExp h1 {
+  font-weight: 800;
+  color: #f1f3f5;
+  text-transform: uppercase;
+}
+.cardExp .categorias {
+  position: absolute;
+  left: 100%;
+  transform: translateX(-100%);
+  top: 0.5rem;
+  width: 14rem;
+  display: flex;
+  align-items: center;
+}
+.cardExp .categorias .freelancerIcon {
+  width: 12.5rem;
+  padding: 0.2rem;
+  display: flex;
+  align-items: center;
+  background-color: #685DB3;
+  border-radius: 0.5rem;
+}
+.cardExp .categorias .freelancerIcon img {
+  width: 1.5rem;
+  height: 1.5rem;
+  margin-left: 0.25rem;
+  margin-right: 0.25rem;
+}
+.cardExp .categorias .freelancerIcon h5 {
+  font-size: 1.5rem;
+  color: #f1f3f5;
+  text-transform: uppercase;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+.cardExp .descricaoExp {
+  margin-top: 2.2rem;
+  font-size: 2rem;
+  color: #e9ecef;
+}
+.cardExp .data {
+  top: 0.5rem;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  color: #f1f3f5;
+}
+.cardExp video {
+  margin-top: 2.2rem;
+  width: 100%;
+}
+
+.verMais {
+  display: none;
+}
+
+.ver {
+  display: block;
+}/*# sourceMappingURL=style.css.map */
