@@ -14,6 +14,17 @@
   &:first-child{
     margin-top: 3rem;
   }
+  .clikvermais{
+    background-color: #4A6D8C;
+    margin: 0 auto;
+    margin-top: 1rem;
+    padding: .5rem 1.5rem;
+    width: fit-content;
+    font-size: 2rem;
+    color: $Texto;
+    text-transform: uppercase;
+    border-radius: .5rem;
+  }
   .tituloExp{
     display: flex;
     position: absolute;

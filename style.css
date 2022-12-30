@@ -33,6 +33,19 @@ html {
 .cardExp:first-child {
   margin-top: 3rem;
 }
+.cardExp .clikvermais {
+  background-color: #4A6D8C;
+  margin: 0 auto;
+  margin-top: 1rem;
+  padding: 0.5rem 1.5rem;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  font-size: 2rem;
+  color: #e9ecef;
+  text-transform: uppercase;
+  border-radius: 0.5rem;
+}
 .cardExp .tituloExp {
   display: flex;
   position: absolute;
@@ -104,3 +117,6 @@ html {
 .ver {
   display: block;
 }/*# sourceMappingURL=style.css.map */
+.naoVer{
+  display: none;
+}
