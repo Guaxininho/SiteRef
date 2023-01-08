@@ -8,6 +8,6 @@ for (let i = 0; i < cards.length; i++) {
     verMais[i].classList.toggle('naoVer');
     conteudo[i].classList.toggle('ver');
   })
-
   
 }
+
