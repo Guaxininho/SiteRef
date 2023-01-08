@@ -6,7 +6,7 @@ const verMais = document.querySelectorAll('.clikvermais');
 for (let i = 0; i < cards.length; i++) {
   cards[i].addEventListener('click', ()=>{
     verMais[i].classList.toggle('naoVer');
-    conteudo[i].classList.toggle('ver');
+    conteudo[i].classList.toggle('ver1');
     verMais[i].innerHTML = verMais[i].innerHTML == 'Clique para ver mais' ? 'Clique para ver menos' : 'Clique para ver mais';
   })
   
