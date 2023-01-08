@@ -28,9 +28,12 @@
   .tituloExp{
     display: flex;
     position: absolute;
-    width: fit-content;
     left: 1rem;
     top: .5rem;
+    width: fit-content;
+    gap: .5rem;
+    // align-items: center;
+    justify-items: space-between;
     img{
       height: 4rem;
       margin-right: .5rem;
@@ -39,6 +42,9 @@
       font-weight: 800;
       color: $Titulo;
       text-transform: uppercase;
+      font-family: $fina;
+      font-size: 2.5rem;
+      letter-spacing: .1rem
     }
   }
   
@@ -77,7 +83,7 @@
   }
   .descricaoExp{
     margin-top: 2.2rem;
-    font-size: 2rem;
+    font-size: 2.2rem;
     color: $Texto;
   }
   .data{
@@ -86,6 +92,10 @@
     left: 50%;
     transform: translateX(-50%);
     color: $Titulo;
+    font-family: $fina;
+    font-size: 2.5rem;
+    letter-spacing: .1rem
+
   }
   video{
     margin-top: 2.2rem;
@@ -93,8 +103,13 @@
   }
 }
 .verMais{
-  display: none;
+  display: block;
+  height: 100px;
+  overflow: hidden;
+  transition: .8s all;
 }
 .ver{
   display: block;
+  height: 1050px;
+  transition: .8s all;
 }

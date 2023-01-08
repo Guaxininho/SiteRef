@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Sofia+Sans+Condensed:wght@300&display=swap");
 *,
 *::after,
 *::before {
@@ -49,11 +50,13 @@ html {
 .cardExp .tituloExp {
   display: flex;
   position: absolute;
+  left: 1rem;
+  top: 0.5rem;
   width: -webkit-fit-content;
   width: -moz-fit-content;
   width: fit-content;
-  left: 1rem;
-  top: 0.5rem;
+  gap: 0.5rem;
+  justify-items: space-between;
 }
 .cardExp .tituloExp img {
   height: 4rem;
@@ -63,6 +66,9 @@ html {
   font-weight: 800;
   color: #f1f3f5;
   text-transform: uppercase;
+  font-family: "Sofia Sans Condensed", sans-serif;
+  font-size: 2.5rem;
+  letter-spacing: 0.1rem;
 }
 .cardExp .categorias {
   position: absolute;
@@ -95,7 +101,7 @@ html {
 }
 .cardExp .descricaoExp {
   margin-top: 2.2rem;
-  font-size: 2rem;
+  font-size: 2.2rem;
   color: #e9ecef;
 }
 .cardExp .data {
@@ -104,6 +110,9 @@ html {
   left: 50%;
   transform: translateX(-50%);
   color: #f1f3f5;
+  font-family: "Sofia Sans Condensed", sans-serif;
+  font-size: 2.5rem;
+  letter-spacing: 0.1rem;
 }
 .cardExp video {
   margin-top: 2.2rem;
@@ -111,11 +120,16 @@ html {
 }
 
 .verMais {
-  display: none;
+  display: block;
+  height: 100px;
+  overflow: hidden;
+  transition: 0.8s all;
 }
 
 .ver {
   display: block;
+  height: 1050px;
+  transition: 0.8s all;
 }
 
 @media (max-width: 1022px) {
